@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./build",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": [
+      "bindings",
+      "node"
+    ]
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
