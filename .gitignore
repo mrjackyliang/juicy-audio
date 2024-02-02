@@ -76,5 +76,3 @@ package-lock.json
 #### Project Excludes ####
 ##########################
 build/
-out/
-seg-fault.log
